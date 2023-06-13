@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;family=Poppins&amp;display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #990033
+}
+h1{
+    font-size:40px; 
+    /* text-decoration: line-through; linha no meio do conteúdo */
+    text-transform: uppercase; /*texto em letra maiusculas*/
+    word-spacing: 70px; /*espaçamento entre palavras*/
+    letter-spacing: 70px; /*espaçamento entre letras*/
+  }
+  p{
+    font-size:20px; /*altera tamanho da fonte*/
+    font-weight: 900;
+    font-style: italic; /*estilo da fonte, pode ser italic, */
+    text-align: center; 
+    /* text-decoration: underline; linha abaixo do conteúdo e overline, fica acima do conteúdo */
+    text-transform: capitalize; /*texto com a primeira letra maiuscula*/
+    line-height: 30px; /*alterando a altura das linhas */
+
+  }
