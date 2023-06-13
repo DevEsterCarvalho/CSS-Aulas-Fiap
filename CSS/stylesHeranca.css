@@ -1,0 +1,9 @@
+body {
+    color: crimson;
+    text-align: center;
+}
+h2 {
+    color: dodgerblue;
+    text-align: left;
+}
+/* herdará as propriedades do body, já que foi definido propriedades novas para o h2 */
