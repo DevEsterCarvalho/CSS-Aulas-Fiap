@@ -1,0 +1,8 @@
+div{
+    width: 250px;
+    height: 150px;
+    overflow: auto; barra de rolagem
+    /* overflow: hidden; conteúdo que ultrapassar não fica visível */
+    /* overflow: scroll; 2 barras de rolagem */
+    /* overflow: visible; */
+}
