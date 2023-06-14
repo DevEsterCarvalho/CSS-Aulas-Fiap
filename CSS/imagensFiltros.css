@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 200px; /*definindo largura da imagem*/
+    height: 200px; /*definindo altura da imagen*/
+    border-radius: 5px; /*arredondamento da imagem*/
+}
