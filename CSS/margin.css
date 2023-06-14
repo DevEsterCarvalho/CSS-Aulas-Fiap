@@ -1,0 +1,14 @@
+div {
+    background-color: rgb(13, 138, 100);
+    /* declaração com um único valor */
+    margin: 20px;
+
+    /* declaração com dois valores */
+    margin: 20px 40px;
+
+    /* declaração com três valores */
+    margin: 20px 40px 30px;
+
+    /* declaração com quatro valores */
+    margin: 20px 30px 40px 50px;
+}
