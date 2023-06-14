@@ -12,3 +12,6 @@ div {
     /* declaração com quatro valores */
     margin: 20px 30px 40px 50px;
 }
+h1{
+    text-align-last:center;
+}
