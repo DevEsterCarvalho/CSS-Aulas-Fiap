@@ -3,7 +3,14 @@ body{
 }
 
 img{
-    width: 200px; /*definindo largura da imagem*/
+    width: 250px; /*definindo largura da imagem*/
     height: 200px; /*definindo altura da imagen*/
     border-radius: 5px; /*arredondamento da imagem*/
+    /*filter: blur(4px); desfoque da imagem*/
+    /*filter: brightness(100%); brilho da imagem*/
+    /*filter: opacity(50%) opacidade da imagem*/
+    filter: saturate(50%)
+    filter: contrast(1000%)
+    /*filter: drop-shadow(10px 18px 5px #720958) sombra em volta do elemento*/
+    /*filter: grayscale(100%) imagem com padrão de cor cinza*/
 }
