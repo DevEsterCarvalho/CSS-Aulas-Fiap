@@ -3,7 +3,7 @@ body{
 }
 
 img{
-    width: 250px; /*definindo largura da imagem*/
+    max-width: 80%;  /*definindo largura da imagem*/
     height: 200px; /*definindo altura da imagen*/
     border-radius: 5px; /*arredondamento da imagem*/
     /*filter: blur(4px); desfoque da imagem*/
