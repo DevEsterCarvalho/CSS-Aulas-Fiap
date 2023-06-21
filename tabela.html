@@ -6,35 +6,48 @@
     <title>Meu projeto Web</title>
 </head>
 <body>
+
     <table>
-        <caption> Séries </title>
-        <tr>
-        <th> Nome</th>
-        <th> Temporada </th>
-        <th> Personagens principais </th>
-        </tr>
-    
-
-        <tr>
-            <td>Gossip Girl</td>
-            <td>6</td>
-            <td>6</td>
-        </tr>
-   
-
-        <tr>
-            <td>How I Met Your Mother</td>
-            <td>9</td>
-            <td>5</td>
-        </tr>
-    
-
-    
-        <tr>
-            <td>Vikings</td>
-            <td>6</td>
-            <td>3</td>
-        </tr>
+        <!-- inserindo o nome das colunas, ou seja a primeira LINHA -->
+        <thead>
+            <caption> Séries </title>
+                <tr>
+                    <th> Nome</th>
+                    <th> Temporada </th>
+                    <th> Personagens principais </th>
+                </tr>
+                
+        </thead>
+        <!-- inserindo os dados de cada coluna. -->
+        <tbody>
+            <tr>
+                <td>Gossip Girl</td>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+            
+            
+            <tr>
+                <td>How I Met Your Mother</td>
+                <td>9</td>
+                <td>5</td>
+            </tr>
+            
+            
+            
+            <tr>
+                <td>Vikings</td>
+                <td>6</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <!-- inserindo rodapé, colspan serve para mesclar na tabela toda ou até onde for mencionado. -->
+        <tfoot>
+            <tr>
+                <td colspan="3"> Dados atualizados no 1o. Semestre </td>
+            </tr>
+        </tfoot>
     </table>
+
 </body>
 </html>
