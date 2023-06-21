@@ -1,0 +1,4 @@
+.box:not(.no-color) {
+    background-color: #dc143c;
+    color: #fff;
+}
