@@ -1,0 +1,22 @@
+.container {
+    margin: 20px;
+    font-size: 16px;   
+}
+.box {
+    width: 450px;
+    margin: 0 10px;
+    padding: 0 10px;
+    background-color: #CC3333;
+    color: #fff;
+    height:150px;
+    line-height: 150%;
+} 
+.box-um {
+    margin: 10px;
+    font-size: 2em;
+}
+.box-dois {
+    margin: 10px;
+    padding: 20px 10px;
+    font-size: 1em;
+}

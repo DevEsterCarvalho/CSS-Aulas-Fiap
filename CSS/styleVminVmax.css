@@ -1,0 +1,14 @@
+.box {
+    width: 480px;
+    margin: 20px;
+    padding: 0 10px;
+    background-color: #CC3333;
+    color: #fff;
+    height:150px;   
+}
+.box-um {
+    font-size: 5vmin;
+}
+.box-dois {  
+    font-size: 5vmax;
+}
