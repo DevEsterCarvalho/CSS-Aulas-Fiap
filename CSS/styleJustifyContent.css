@@ -1,0 +1,24 @@
+/* .container{
+    /* display: flex;
+    justify-content: flex-start;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+} */ */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}

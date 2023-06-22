@@ -1,0 +1,33 @@
+.container {
+    width: 600px;
+    margin: 10px;
+    height: 400px;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    color: #fff;  
+}
+.box {
+    width: 140px;
+    height: 70px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 0;
+    font-size: 25px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-um {
+    background-color: #22223b;
+}
+.box-dois {
+    background-color: #4a4e69;
+    position: relative;
+    left: 100px;
+}
+.box-tres {
+    background-color: #5a4856; 
+    position: relative;
+    left: 200px;
+}
