@@ -1,6 +1,6 @@
 <h1>Meu projeto Web</h1>
 <form name="dados" id="dados" action="" method="post">
-   <fieldset>
+    <fieldset>
     <legend>Dados do usuário</legend>
     
     <label for="id do campo">Nome do usuário</label>
@@ -36,7 +36,29 @@
     <input type="tel" id="celular" name="celular">>
 
     <label for="cor">Selecione uma cor</label>
-      <input type="color" id="cor" name="cor">
+    <input type="color" id="cor" name="cor">
+
+    <label for="arquivo">Selecione um arquivo:</label>
+    <input type="file" id="arquivo" name="arquivo">
+
+    <!-- checkbox -->
+    <h3>Selecione sua área de atuação:</h3>
+    <input type="checkbox" name="area" id="dev" value="1"> 
+    <label for="dev"> Desenvolvimento </label> 
+    <input type="checkbox" name="area" id="banco" value="2"> 
+    <label for="banco"> Banco de Dados </label> 
+    <input type="checkbox" name="area" id="projeto" value="3"> 
+    <label for="projeto"> Gestão de Projetos </label>
+
+    <!-- radio -->
+    <h3>Selecione sua área de atuação:</h3>
+    <input type="radio" name="area" id="dev" value="1"> 
+    <label for="dev"> Desenvolvimento </label> 
+    <input type="radio" name="area" id="banco" value="2"> 
+    <label for="banco"> Banco de Dados </label> 
+    <input type="radio" name="area" id="projeto" value="3"> 
+    <label for="projeto"> Gestão de Projetos </label>
 
    </fieldset>
 </form>
+
